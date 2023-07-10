@@ -7,12 +7,17 @@ body{
   font-family: lato;
 }
 
+.container{
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
 .banner{
   background: rgba(229, 84, 115, 0.10);
   min-height: 80vh;
   display: flex;
   justify-content: space-between;
-  padding: 0 100px 0 170px;
+  padding: 50px 100px 0 140px;
   align-items: center;
 }
 
@@ -52,5 +57,103 @@ body{
 
 .banner img{
   width: 100%;
-  padding-top: 50px;
 }
+
+
+/* Flowers Section */
+
+
+.flowers {
+  text-align: center;
+  padding: 100px 0 80px 0;
+}
+
+.flowers h2{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.flowers p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.flower-boxes{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flower-boxes .boxes{
+  width: 31%;
+}
+
+.flower-boxes .boxes h6{
+  font-size: 16px;
+  font-weight: 600;
+  color: #272727;
+  line-height: 25px;
+  text-decoration: underline;
+  margin-top: 13px;
+}
+
+.flower-boxes .boxes-1,
+.flower-boxes .boxes-2,
+.flower-boxes .boxes-3{
+  background-size: 65%;
+  background-position: center bottom;
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  border-radius: 250px 250px 0 0;
+}
+
+.flower-boxes .boxes-1{
+  background-image: url(../image/pngwing\ 6.png);
+  background-color: #F2DEE7;
+}
+.flower-boxes .boxes-2{
+  background-image: url(../image/Rectangle_4-removebg-preview.png);
+  background-color: #D9EFF1;
+}
+.flower-boxes .boxes-3{
+  background-image: url(../image/pngwing\ 7.png);
+  background-color: #E3EBDB;
+}
+
+
+/* Info */
+
+
+#info{
+  padding: 40px 0;
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+  background: #F4F4F4;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+}
+
+.info img{
+  width: 80px;
+  height: 80px;
+}
+
+.info h6{
+  color: rgba(39, 39, 39, 0.80);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+
+/* Offer */
