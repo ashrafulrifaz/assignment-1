@@ -35,7 +35,9 @@ body{
   font-weight: 800;
 }
 
-.banner-content p{
+.banner-content p,
+.offer-content p,
+#varity p{
   font-size: 17px;
   line-height: 25px;
   font-weight: 400;
@@ -43,7 +45,8 @@ body{
   margin: 20px 0;
 }
 
-.banner-content button{
+.banner-content button,
+#offer button{
   font-size: 14px;
   font-family: open sans;
   font-weight: 600;
@@ -68,7 +71,9 @@ body{
   padding: 100px 0 80px 0;
 }
 
-.flowers h2{
+.flowers h2,
+.offer-content h2,
+#varity h2{
   color: #272727;
   font-size: 35px;
   font-weight: 700;
@@ -131,7 +136,7 @@ body{
 
 
 #info{
-  padding: 40px 0;
+  padding: 40px 0 80px 0;
 }
 
 .info{
@@ -157,3 +162,68 @@ body{
 
 
 /* Offer */
+
+
+#offer{
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px 40px 140px;
+  align-items: center;
+}
+
+#offer .offer-content {
+  width: 55%;
+}
+
+#offer .offer-img{
+  width: 40%;
+}
+
+.offer-img img{
+  width: 100%;
+}
+
+.offer-content p{
+  padding-right: 50px;
+}
+
+
+
+#varity{
+  padding: 80px 0;
+  text-align: center;
+}
+
+.varity{
+  display: flex;
+  justify-content: space-between;
+}
+
+.varity-item{
+  width: 23%;
+}
+
+#varity .items{
+  width: 100%;
+  height: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.varity .item-1{
+  background-image: url(../image/Flower\ 01.png);
+}
+
+.varity .item-2{
+  background-image: url(../image/Rectangle\ 4.png);
+}
+
+.varity .item-3{
+  background-image: url(../image/Rectangle\ 5.png);
+}
+
+.varity .item-4{
+  background-image: url(../image/Rectangle\ 6.png);
+}
