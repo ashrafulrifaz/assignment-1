@@ -37,7 +37,8 @@ body{
 
 .banner-content p,
 .offer-content p,
-#varity p{
+#varity p,
+#subscribe p{
   font-size: 17px;
   line-height: 25px;
   font-weight: 400;
@@ -73,7 +74,8 @@ body{
 
 .flowers h2,
 .offer-content h2,
-#varity h2{
+#varity h2,
+#subscribe h2{
   color: #272727;
   font-size: 35px;
   font-weight: 700;
@@ -123,7 +125,7 @@ body{
   background-color: #F2DEE7;
 }
 .flower-boxes .boxes-2{
-  background-image: url(../image/Rectangle_4-removebg-preview.png);
+  background-image: url(../image/doug-kelley-rPDuuBEtFI8-unsplash-removebg-preview.png);
   background-color: #D9EFF1;
 }
 .flower-boxes .boxes-3{
@@ -226,4 +228,46 @@ body{
 
 .varity .item-4{
   background-image: url(../image/Rectangle\ 6.png);
+}
+
+
+/* Subscribe */
+
+
+
+#subscribe{
+  padding: 60px 0;
+  text-align: center;
+}
+
+.sub-con{
+  padding: 70px;
+  border-radius: 8px;
+  background-image: url(../image/Rectangle\ 9.png);
+  background-size: cover;
+}
+
+#subscribe input{
+  padding: 15px;
+  border: none;
+  border-radius: 7px;
+  background: #fff;
+  width: 50%;
+  margin-right: 10px;
+}
+
+#subscribe input:focus{
+  outline: none;
+}
+
+#subscribe button{
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 500;
+  font-family: open sans;
+  color: white;
+  background: #E55473;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 25px;
 }
