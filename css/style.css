@@ -37,7 +37,8 @@ body{
 
 .banner-content p,
 .offer-content p,
-#varity p,
+#gallery p,
+#about p,
 #subscribe p,
 footer p{
   font-size: 17px;
@@ -48,7 +49,8 @@ footer p{
 }
 
 .banner-content button,
-#offer button{
+#offer button,
+#about button{
   font-size: 14px;
   font-family: open sans;
   font-weight: 600;
@@ -62,20 +64,22 @@ footer p{
 
 .banner img{
   width: 100%;
+  display: block;
 }
 
 
-/* Flowers Section */
+/* Category Section */
 
 
-.flowers {
+.category {
   text-align: center;
   padding: 100px 0 80px 0;
 }
 
-.flowers h2,
+.category h2,
 .offer-content h2,
-#varity h2,
+#gallery h2,
+#about h2,
 #subscribe h2{
   color: #272727;
   font-size: 35px;
@@ -83,7 +87,7 @@ footer p{
   line-height: normal;
 }
 
-.flowers p{
+.category p{
   color: rgba(39, 39, 39, 0.60);
   font-size: 16px;
   line-height: 22px;
@@ -91,17 +95,17 @@ footer p{
   margin-top: 15px;
 }
 
-.flower-boxes{
+.category-boxes{
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.flower-boxes .boxes{
+.category-boxes .boxes{
   width: 31%;
 }
 
-.flower-boxes .boxes h6{
+.category-boxes .boxes h6{
   font-size: 16px;
   font-weight: 600;
   color: #272727;
@@ -110,9 +114,9 @@ footer p{
   margin-top: 13px;
 }
 
-.flower-boxes .boxes-1,
-.flower-boxes .boxes-2,
-.flower-boxes .boxes-3{
+.category-boxes .boxes-1,
+.category-boxes .boxes-2,
+.category-boxes .boxes-3{
   background-size: 65%;
   background-position: center bottom;
   width: 100%;
@@ -121,18 +125,45 @@ footer p{
   border-radius: 250px 250px 0 0;
 }
 
-.flower-boxes .boxes-1{
+.category-boxes .boxes-1{
   background-image: url(../image/pngwing\ 6.png);
   background-color: #F2DEE7;
 }
-.flower-boxes .boxes-2{
+.category-boxes .boxes-2{
   background-image: url(../image/doug-kelley-rPDuuBEtFI8-unsplash-removebg-preview.png);
   background-color: #D9EFF1;
 }
-.flower-boxes .boxes-3{
+.category-boxes .boxes-3{
   background-image: url(../image/pngwing\ 7.png);
   background-color: #E3EBDB;
 }
+
+
+
+/* About */
+
+
+
+#about {
+  padding: 50px 100px 50px 140px;
+  background: #d9eff163;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-img{
+  width: 40%;
+}
+
+.about-content{
+  width: 50%;
+}
+
+#about img{
+  width: 100%;
+}
+
 
 
 /* Info */
@@ -171,7 +202,7 @@ footer p{
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   justify-content: space-between;
-  padding: 30px 100px 40px 140px;
+  padding: 0px 100px 0px 140px;
   align-items: center;
 }
 
@@ -193,21 +224,21 @@ footer p{
 
 
 
-#varity{
+#gallery{
   padding: 80px 0;
   text-align: center;
 }
 
-.varity{
+.gallery{
   display: flex;
   justify-content: space-between;
 }
 
-.varity-item{
+.gallery-item{
   width: 23%;
 }
 
-#varity .items{
+#gallery .items{
   width: 100%;
   height: 350px;
   background-position: center center;
@@ -215,19 +246,19 @@ footer p{
   background-size: contain;
 }
 
-.varity .item-1{
+.gallery .item-1{
   background-image: url(../image/Flower\ 01.png);
 }
 
-.varity .item-2{
+.gallery .item-2{
   background-image: url(../image/Rectangle\ 4.png);
 }
 
-.varity .item-3{
+.gallery .item-3{
   background-image: url(../image/Rectangle\ 5.png);
 }
 
-.varity .item-4{
+.gallery .item-4{
   background-image: url(../image/Rectangle\ 6.png);
 }
 
